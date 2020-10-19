@@ -1,0 +1,95 @@
+.la-container {
+  padding: 8px 0;
+  background-color: transparent;
+}
+.la-container .topic {
+  text-transform: capitalize;
+  font-size: 30px;
+  font-weight: bold;
+  color: #FFF;
+}
+.list-album {
+  list-style: none;
+  padding: 8px;
+  display: flex;
+  flex-shrink: none;
+}
+
+.list-album li {
+  padding: 0 15px 0 0;
+}
+
+.album-container {
+  background-color: transparent;
+  display: block;
+  width: 150px;
+  height: 148px;
+  border-radius: 5px;
+}
+
+.album-square {
+  width: 150px;
+  height: 128px;
+  background-color: transparent;
+  background-image: url(https://loremflickr.com/320/240);
+  background-size: cover;
+  background-position: center;
+  color: #FFF;
+  border-radius: 5px;
+}
+
+.album-square .overlay {
+  height: 100%; 
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.4);
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  opacity: 0;
+  border-radius: 5px;
+}
+
+.album-square:hover .overlay {
+  opacity: 1;
+}
+
+.album-square .overlay .fav {
+  padding: 5px;
+  font-size: 20px;
+  color: #FFF;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.album-square .overlay .fav:hover {
+  border-radius: 50%;
+  background-color: #777;
+}
+
+.album-square .overlay .play {
+  text-decoration: none;
+}
+
+.album-square .overlay .play .fa-play-circle {
+  font-size: 40px;
+  font-weight: bold;
+  padding: 8px;
+  color: #FFF;
+}
+
+.album-container .title {
+  width: 128px;
+  height: 20px;
+  margin-top: 4px;
+}
+
+.album-container .title .text-content {
+  display: block;
+  text-decoration: none;
+  color: #FFF;
+  text-transform: capitalize;
+}
+
+.album-container .title .text-content:hover {
+  color: violet;
+}

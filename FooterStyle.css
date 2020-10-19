@@ -1,0 +1,46 @@
+.footer {
+  height: 120px;
+  border-top: 1px solid #444;
+}
+.symbol {
+  margin-top: 16px;
+  color: #777;
+}
+.symbol .logo img {
+  height: 30px;
+  width: 30px;
+}
+.symbol .logo {
+  display: flex;
+  justify-content: center;
+}
+.symbol .logo .title {
+  font-size: 14px;
+  padding: 8px;  
+}
+.features .list-ft{
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+
+.list-ft li {
+  padding: 0 16px;
+}
+.list-ft .ft-it .lt {
+  text-decoration: none;
+  color: #777;
+  font-size: 14px;
+}
+.list-ft .ft-it .lt:hover {
+  color: #9877FF;
+}
+
+.features .dot {
+  background-color: #777;
+  border-radius: 50%;
+  display: inline-block;
+  height: 8px;
+  width: 8px;
+  margin: 6px 0;
+}
