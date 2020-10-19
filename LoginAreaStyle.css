@@ -1,0 +1,44 @@
+.login-area {
+  margin: 0 10px;
+  padding-top: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  width: 1080px;
+}
+
+.login-container {
+  background-image: url(https://zjs.zadn.vn/zmp3-desktop/releases/v0.1.29/images/banner-bg.svg);
+  background-repeat: no-repeat;
+  background-position: cover;
+  padding: 10px 40px;
+  border-radius: 2px;
+  
+  color: #FFF;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.login-container .fa-compact-disc {
+  font-size: 40px;
+  color: orange;
+  padding: 0;
+  
+}
+
+.login-container .title {
+  margin: 0 20px;
+  
+}
+
+.login-container .login-btn {
+  border-radius: 2px;
+  padding: 8px 15px;
+  background-color: #FDD100;
+  flex-shrink: 0;
+}
+
+.login-container .login-btn:hover {
+  color: #9877FF;
+  background-color: #FCFCFC;
+}

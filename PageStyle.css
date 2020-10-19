@@ -1,0 +1,18 @@
+body {
+  font-family: Arial, sans-serif;
+  
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.page {
+  display: grid;
+  grid-template-columns: 10% 80% 10%;
+  background-color: #0D021A;
+}
+.main {
+  grid-column: 2;
+  background-color: #0D021A;
+}
